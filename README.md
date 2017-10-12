@@ -68,3 +68,25 @@ echo '<h2>' . $joao->getName() . ': R$ ' . $joao->getSalary(6) . " (R$ {$joao->g
 echo '<h2>' . $gisele->getName() . ': R$ ' . $gisele->getSalary(8) . " (R$ {$gisele->getCommission()})</h2>";
 echo '<h2>' . $alexandre->getName() . ': R$ ' . $alexandre->getSalary(13) . " (R$ {$alexandre->getCommission()})</h2>";
 ```
+
+## DIP - Wrong
+
+```php
+<?php
+
+use app\dip\wrong\Connection;
+use app\dip\wrong\sgbd\MySQL;
+
+$mysqlConnection = new Connection(new MySQL);
+```
+
+## DIP - Right
+
+```php
+<?php
+
+use app\dip\right\Connection;
+use app\dip\right\sgbd\MySQL;
+
+$mysqlConnection = new Connection(new MySQL);
+```
