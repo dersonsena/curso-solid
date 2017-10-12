@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aniversariantes>
+    <aniversariante>
+        <nome>Kilderson Sena</nome>
+        <email>kilderson@dominio.com.br</email>
+        <data_nascimento>1987-10-01</data_nascimento>
+    </aniversariante>
+    <aniversariante>
+        <nome>Kauan Lucas</nome>
+        <email>kauan@dominio.com.br</email>
+        <data_nascimento>1987-10-05</data_nascimento>
+    </aniversariante>
+    <aniversariante>
+        <nome>Dayanny Maria</nome>
+        <email>dayanny@dominio.com.br</email>
+        <data_nascimento>1987-10-08</data_nascimento>
+    </aniversariante>
+    <aniversariante>
+        <nome>João Sena</nome>
+        <email>joao@dominio.com.br</email>
+        <data_nascimento>1987-10-11</data_nascimento>
+    </aniversariante>
+    <aniversariante>
+        <nome>Arila Sena</nome>
+        <email>arila@dominio.com.br</email>
+        <data_nascimento>1987-10-13</data_nascimento>
+    </aniversariante>
+    <aniversariante>
+        <nome>José Danilo</nome>
+        <email>jose@dominio.com.br</email>
+        <data_nascimento>1987-10-16</data_nascimento>
+    </aniversariante>
+    <aniversariante>
+        <nome>Francilene Medeiros</nome>
+        <email>jose@dominio.com.br</email>
+        <data_nascimento>1987-10-20</data_nascimento>
+    </aniversariante>
+</aniversariantes>
