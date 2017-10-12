@@ -6,7 +6,9 @@ Para executar os exemplos do SOLID, basta rodar o comando do PHP Built-in
 
 e utilizar um dos exemplos abaixo: 
 
-## SRP - Wrong
+## SRP
+
+### Violação
 
 ```php
 use app\srp\wrong\BirthdayLayout;
@@ -16,7 +18,7 @@ $emailSender = new EmailSender(new BirthdayLayout);
 $emailSender->sendMails();
 ```
 
-## SRP - Right
+### Refatorado
 
 ```php
 use app\srp\right\BirthdayLayout;
@@ -28,7 +30,9 @@ $emailSender = new EmailSender(new BirthdayLayout, new ClientJSON);
 $emailSender->sendMails();
 ```
 
-## OCP - Wrong
+## OCP
+
+### Wrong
 
 ```php
 use app\ocp\wrong\Employee;
@@ -44,7 +48,7 @@ echo '<h2>' . $gisele->getName() . ': R$ ' . $gisele->getSalary(8) . " (R$ {$gis
 echo '<h2>' . $alexandre->getName() . ': R$ ' . $alexandre->getSalary(13) . " (R$ {$alexandre->getCommission()})</h2>";
 ```
 
-## OCP - Right
+### Right
 
 ```php
 use app\ocp\right\department\Coordinator;
@@ -64,7 +68,9 @@ echo '<h2>' . $gisele->getName() . ': R$ ' . $gisele->getSalary(8) . " (R$ {$gis
 echo '<h2>' . $alexandre->getName() . ': R$ ' . $alexandre->getSalary(13) . " (R$ {$alexandre->getCommission()})</h2>";
 ```
 
-## DIP - Wrong
+## DIP
+
+### Wrong
 
 ```php
 use app\dip\wrong\Connection;
@@ -73,7 +79,7 @@ use app\dip\wrong\sgbd\MySQL;
 $mysqlConnection = new Connection(new MySQL);
 ```
 
-## DIP - Right
+### Right
 
 ```php
 use app\dip\right\Connection;
