@@ -9,7 +9,6 @@ e utilizar um dos exemplos abaixo:
 ## SRP - Wrong
 
 ```php
-<?php
 use app\srp\wrong\BirthdayLayout;
 use app\srp\wrong\EmailSender;
 
@@ -20,7 +19,6 @@ $emailSender->sendMails();
 ## SRP - Right
 
 ```php
-<?php
 use app\srp\right\BirthdayLayout;
 use app\srp\right\EmailSender;
 use app\srp\right\parser\ClientJSON;
@@ -33,7 +31,6 @@ $emailSender->sendMails();
 ## OCP - Wrong
 
 ```php
-<?php
 use app\ocp\wrong\Employee;
 
 $maria = new Employee("Maria", 1000, 'vendedor');
@@ -50,8 +47,6 @@ echo '<h2>' . $alexandre->getName() . ': R$ ' . $alexandre->getSalary(13) . " (R
 ## OCP - Right
 
 ```php
-<?php
-
 use app\ocp\right\department\Coordinator;
 use app\ocp\right\department\Director;
 use app\ocp\right\department\Seller;
@@ -72,8 +67,6 @@ echo '<h2>' . $alexandre->getName() . ': R$ ' . $alexandre->getSalary(13) . " (R
 ## DIP - Wrong
 
 ```php
-<?php
-
 use app\dip\wrong\Connection;
 use app\dip\wrong\sgbd\MySQL;
 
@@ -83,8 +76,6 @@ $mysqlConnection = new Connection(new MySQL);
 ## DIP - Right
 
 ```php
-<?php
-
 use app\dip\right\Connection;
 use app\dip\right\sgbd\MySQL;
 
