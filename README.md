@@ -85,5 +85,31 @@ $mysqlConnection = new Connection(new MySQL);
 use app\dip\right\Connection;
 use app\dip\right\sgbd\MySQL;
 
-$mysqlConnection = new Connection(new MySQL);
+$connection = new Connection(new MySQL);
+```
+
+### LSP
+
+Exemplo da Geometria
+
+```php
+use app\lsp\geometry\Rectangle;
+use app\lsp\geometry\Square;
+
+//$rectangle = new Rectangle(5, 4);
+$rectangle = new Square(5, 4);
+
+echo '<h1>ÁREA: ' . $rectangle->getArea() . '</h1>';
+```
+
+Exemplo da Conta Corrente
+
+```php
+use app\lsp\account\Account;
+use app\lsp\account\CurrentAccount;
+
+$account = new Account(123, 500);
+//$account = new CurrentAccount(123, 500);
+
+$account->printBalance();
 ```
