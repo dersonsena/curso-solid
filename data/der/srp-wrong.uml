@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\app\srp\wrong\Client</OriginalElement>
+  <nodes>
+    <node x="-391.0" y="-318.0">\app\srp\wrong\EmailSender</node>
+    <node x="-708.0" y="-391.0">\app\srp\wrong\Client</node>
+    <node x="-390.0" y="-391.0">\app\srp\wrong\BirthdayLayout</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="34.0" y="15.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

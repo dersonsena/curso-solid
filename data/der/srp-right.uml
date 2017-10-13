@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>/Users/kildersonsena/web-workspace/curso-solid/data/der</OriginalElement>
+  <nodes>
+    <node x="305.0" y="486.0">\app\srp\right\parser\ClientXML</node>
+    <node x="21.0" y="297.0">\app\srp\right\Logger</node>
+    <node x="0.0" y="0.0">\app\srp\right\Client</node>
+    <node x="341.0" y="26.0">\app\srp\right\BirthdayLayout</node>
+    <node x="351.5" y="295.0">\app\srp\right\parser\ClientParserAbstract</node>
+    <node x="441.0" y="486.0">\app\srp\right\parser\ClientJSON</node>
+    <node x="314.0" y="111.0">\app\srp\right\EmailSender</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\app\srp\right\parser\ClientXML" target="\app\srp\right\parser\ClientParserAbstract">
+      <point x="0.0" y="-25.5" />
+      <point x="363.0" y="461.0" />
+      <point x="391.25" y="461.0" />
+      <point x="-39.75" y="70.5" />
+    </edge>
+    <edge source="\app\srp\right\parser\ClientJSON" target="\app\srp\right\parser\ClientParserAbstract">
+      <point x="0.0" y="-25.5" />
+      <point x="499.0" y="461.0" />
+      <point x="470.75" y="461.0" />
+      <point x="39.75" y="70.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="755.0" y="416.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

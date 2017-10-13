@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\app\lsp\account\Account</OriginalElement>
+  <nodes>
+    <node x="-662.0" y="-154.0">\app\lsp\account\CurrentAccount</node>
+    <node x="-711.0" y="-402.0">\app\lsp\account\Account</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\app\lsp\account\CurrentAccount" target="\app\lsp\account\Account">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="42.0" y="14.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

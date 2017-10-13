@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\app\ocp\right\Employee</OriginalElement>
+  <nodes>
+    <node x="-115.0" y="20.0">\app\ocp\right\department\Director</node>
+    <node x="-412.0" y="20.0">\app\ocp\right\department\Supervisor</node>
+    <node x="-263.5" y="-81.0">\app\ocp\right\department\IDepartment</node>
+    <node x="-285.0" y="-356.0">\app\ocp\right\Employee</node>
+    <node x="-709.0" y="20.0">\app\ocp\right\department\Seller</node>
+    <node x="182.0" y="20.0">\app\ocp\right\department\Coordinator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\app\ocp\right\department\Seller" target="\app\ocp\right\department\IDepartment">
+      <point x="0.0" y="-25.5" />
+      <point x="-570.5" y="-10.0" />
+      <point x="-228.875" y="-10.0" />
+      <point x="-103.875" y="25.5" />
+    </edge>
+    <edge source="\app\ocp\right\department\Supervisor" target="\app\ocp\right\department\IDepartment">
+      <point x="0.0" y="-25.5" />
+      <point x="-273.5" y="0.0" />
+      <point x="-159.625" y="0.0" />
+      <point x="-34.625" y="25.5" />
+    </edge>
+    <edge source="\app\ocp\right\department\Director" target="\app\ocp\right\department\IDepartment">
+      <point x="0.0" y="-25.5" />
+      <point x="23.5" y="0.0" />
+      <point x="-90.375" y="0.0" />
+      <point x="34.625" y="25.5" />
+    </edge>
+    <edge source="\app\ocp\right\department\Coordinator" target="\app\ocp\right\department\IDepartment">
+      <point x="0.0" y="-25.5" />
+      <point x="320.5" y="-10.0" />
+      <point x="-21.125" y="-10.0" />
+      <point x="103.875" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="46.0" y="-145.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

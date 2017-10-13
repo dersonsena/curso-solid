@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\app\dip\right\Connection</OriginalElement>
+  <nodes>
+    <node x="-495.0" y="-182.0">\app\dip\right\Connection</node>
+    <node x="-471.5" y="-96.0">\app\dip\right\sgbd\ISgbd</node>
+    <node x="-236.0" y="115.0">\app\dip\right\sgbd\SqlServer</node>
+    <node x="-550.0" y="115.0">\app\dip\right\sgbd\PostgreSQL</node>
+    <node x="-393.0" y="115.0">\app\dip\right\sgbd\MySQL</node>
+    <node x="-707.0" y="115.0">\app\dip\right\sgbd\Oracle</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\app\dip\right\sgbd\PostgreSQL" target="\app\dip\right\sgbd\ISgbd">
+      <point x="0.0" y="-80.5" />
+      <point x="-481.5" y="95.0" />
+      <point x="-420.125" y="95.0" />
+      <point x="-17.125" y="80.5" />
+    </edge>
+    <edge source="\app\dip\right\sgbd\SqlServer" target="\app\dip\right\sgbd\ISgbd">
+      <point x="0.0" y="-80.5" />
+      <point x="-167.5" y="85.0" />
+      <point x="-351.625" y="85.0" />
+      <point x="51.375" y="80.5" />
+    </edge>
+    <edge source="\app\dip\right\sgbd\MySQL" target="\app\dip\right\sgbd\ISgbd">
+      <point x="0.0" y="-80.5" />
+      <point x="-324.5" y="95.0" />
+      <point x="-385.875" y="95.0" />
+      <point x="17.125" y="80.5" />
+    </edge>
+    <edge source="\app\dip\right\sgbd\Oracle" target="\app\dip\right\sgbd\ISgbd">
+      <point x="0.0" y="-80.5" />
+      <point x="-638.5" y="85.0" />
+      <point x="-454.375" y="85.0" />
+      <point x="-51.375" y="80.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="52.0" y="234.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

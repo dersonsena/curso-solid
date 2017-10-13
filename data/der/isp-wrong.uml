@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\app\isp\wrong\Avestruz</OriginalElement>
+  <nodes>
+    <node x="-449.0" y="-201.0">\app\isp\wrong\BeijaFlor</node>
+    <node x="-505.5" y="-346.0">\app\isp\wrong\IBird</node>
+    <node x="-562.0" y="-201.0">\app\isp\wrong\Pardal</node>
+    <node x="-675.0" y="-201.0">\app\isp\wrong\Pinguim</node>
+    <node x="-336.0" y="-201.0">\app\isp\wrong\Avestruz</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\app\isp\wrong\Avestruz" target="\app\isp\wrong\IBird">
+      <point x="0.0" y="-47.5" />
+      <point x="-289.5" y="-231.0" />
+      <point x="-424.125" y="-231.0" />
+      <point x="34.875" y="47.5" />
+    </edge>
+    <edge source="\app\isp\wrong\Pinguim" target="\app\isp\wrong\IBird">
+      <point x="0.0" y="-47.5" />
+      <point x="-628.5" y="-231.0" />
+      <point x="-493.875" y="-231.0" />
+      <point x="-34.875" y="47.5" />
+    </edge>
+    <edge source="\app\isp\wrong\Pardal" target="\app\isp\wrong\IBird">
+      <point x="0.0" y="-47.5" />
+      <point x="-515.5" y="-221.0" />
+      <point x="-470.625" y="-221.0" />
+      <point x="-11.625" y="47.5" />
+    </edge>
+    <edge source="\app\isp\wrong\BeijaFlor" target="\app\isp\wrong\IBird">
+      <point x="0.0" y="-47.5" />
+      <point x="-402.5" y="-221.0" />
+      <point x="-447.375" y="-221.0" />
+      <point x="11.625" y="47.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="43.5" y="54.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
